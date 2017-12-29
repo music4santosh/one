@@ -27,7 +27,8 @@ namespace WpfApplication1
 
 		private void Button_Click(object sender, RoutedEventArgs e)
 		{
-			MessageBox.Show("one tested!");
+			string str = DateTime.Now.ToString();
+			MessageBox.Show("one tested: " + str);
 		}
 	}
 }
