@@ -1,4 +1,4 @@
-!﻿using System;
+﻿!﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +20,8 @@ namespace WpfApplication1
 	/// </summary>
 	public partial class MainWindow : Window
 	{
+		static Random _random = new Random();
+
 		public MainWindow()
 		{
 			InitializeComponent();
